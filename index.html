@@ -1,36 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M and Friends</title>
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-color: pink;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #ededed;
         }
-        h1 {
-            font-weight: bold;
-            font-size: 40px;
-            text-decoration: none;
-            color: blue;
-        }
-        p {
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
             text-align: center;
-            font-weight: bold;
-            font-size: 20px;
+        }
+
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        article {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
         }
     </style>
 </head>
+
 <body>
-    <h1>M and Friends</h1>
-    <p> This website is for practice and stuff like that</p>
-    <p>Seboko is my chom</p>
-</br>
-<p> I will be updating it soon, I just wanted to build something extremely simple</p>
-<script>
-    alert("Welcome to M and Friends");
-    // alert("This website is for practice and stuff like that");
-    alert("this is n")
-</script>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Help Us All Blog</h2>
+            <p>Write your content here...</p>
+        </article>
+    </main>
+    <aside>
+        <h2>About Us</h2>
+        <p>A short bio about us...</p>
+    </aside>
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
